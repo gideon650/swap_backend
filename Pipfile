@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+requests = "*"
+django-ratelimit = "*"
+bokeh = "*"
+pandas = "*"
+npm = "*"
+django-cors-headers = "*"
+whitenoise = "*"
+mysqlclient = "*"
+daphne = "*"
+twisted = {extras = ["http2", "tls"], version = "*"}
+firebase-admin = "*"
+pytz = "*"
+psycopg2-binary = "*"
+celery = "*"
+redis = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
